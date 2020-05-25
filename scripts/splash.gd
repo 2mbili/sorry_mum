@@ -1,6 +1,5 @@
 extends Node2D
 
-
 var path = "main_menu.tscn"
 func _ready():
 	pass
