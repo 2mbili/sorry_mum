@@ -7,8 +7,8 @@ func _ready():
 
 func _changeScene(path):
 	nextScene = path
-	match 
-
+	$anim.play("start")
+	
 func _onSplashEnds(anim_name):
 	get_tree().change_scene("res://scenes/"+nextScene)
 	pass
